@@ -44,6 +44,7 @@ class Shop extends Component {
         return (
             <div className="container">
                 <Header
+                    add_to_cart={ this.add_to_cart }
                     cart={ this.state.cart }
                 />
 

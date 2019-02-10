@@ -26,6 +26,7 @@ class Header extends Component {
     render() {
         const {
             cart = [],
+            add_to_cart,
         } = this.props;
 
         var total_price = 0;
@@ -51,6 +52,7 @@ class Header extends Component {
 
                     { this.state.show && <Cart
                         cart={ cart }
+                        add_to_cart={ add_to_cart }
                         total_price={ total_price }
                         currency={ currency }
                     />}
@@ -62,6 +64,7 @@ class Header extends Component {
 
 Header.propTypes = {
     cart: PropTypes.array.isRequired,
+    add_to_cart: PropTypes.func.isRequired,
 };
 
 export default Header;
