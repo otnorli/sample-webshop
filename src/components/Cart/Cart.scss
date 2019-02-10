@@ -1,0 +1,11 @@
+@import '../../styles/style';
+
+.cart__button {
+  background-color: $primary-button-color;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+  margin-bottom:30px;
+}

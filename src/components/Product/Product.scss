@@ -1,0 +1,19 @@
+@import '../../styles/style';
+
+.product {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5%;
+}
+.product__image {
+  width: 100%;
+}
+.product_add {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+}
+.product_added {
+  background-color: $primary-button-color;
+}
