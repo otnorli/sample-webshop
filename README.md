@@ -6,3 +6,5 @@ npm start
 
 Test:
 npm test
+
+Sample webshop with cart. Included bootstrap-grid for grid
