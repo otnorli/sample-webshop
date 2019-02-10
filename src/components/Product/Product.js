@@ -17,6 +17,7 @@ class Product extends Component {
         this.props.add_to_cart(this.props.product);
     }
     scroll_top() {
+        // Scroll to top, where checkout happens
         window.scrollTo(0,0);
     }
     render() {
